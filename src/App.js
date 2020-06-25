@@ -5,8 +5,13 @@ import './App.css'
 import {Container, Nav} from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 
+//Pages
+import Home from './pages/HomePage'
+import Contact from './pages/ContactPage';
+import About from './pages/AboutPage';
 //Components
 import Footer from './components/Footer'
+import Hero from './components/Hero'
 class App extends React.Component {
   constructor(props){
     super(props)
@@ -20,7 +25,7 @@ class App extends React.Component {
       home: {
         title: 'Forward Thinking',
         subTitle: 'Projects from me',
-        body: 'Take a look at my Projects'
+        text: 'Take a look at my Projects'
       },
       about: {
         title: 'About Me',
@@ -48,9 +53,15 @@ class App extends React.Component {
                 <Link className="nav-link" to="/contact">
                 Contact
                 </Link>
+
+                
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+          <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <Route path="/about" exact render={() => <About title={this.state.about.title} />} />
+          <Route path="/contact" exact render={() => <Contact title={this.state.contact.title} />} />
+
           <Footer />
         </Container>
       </Router>
