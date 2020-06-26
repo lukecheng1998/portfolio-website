@@ -10,7 +10,7 @@ function Footer () {
                        
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        Made by Luke Cheng
+                        Made by Luke Cheng v5.1.0
                     </Col>
                 </Row>
             </Container>

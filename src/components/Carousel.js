@@ -59,7 +59,10 @@ class Carousel extends Component {
   render() {
     return (
         <Container fluid={true}>
+          <h3 className="alignment">Featured Projects</h3>
+          <p className="alignment">View more of my projects <a href="https://github.com/lukecheng1998" target="blank" rel="noopener noreferrer">here!</a></p>
             <Row className="justify-content-around">
+              
                 {this.makeItems(this.state.items)}
             </Row>
         </Container>

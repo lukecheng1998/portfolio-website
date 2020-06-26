@@ -20,6 +20,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.alignment{
+  text-align: center;
+  font-style: Helvetica;
+}
 .l-card {
   margin: 20px;
 }

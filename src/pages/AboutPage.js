@@ -9,13 +9,7 @@ function AboutPage(props) {
       <Hero title={props.title} />
       <Content>
         <img src={Portrait} className="portrait-format center" />
-        <p>
-          Hello I'm Luke Cheng current a student studying at Purdue University.
-        </p>
-        <p>
-          I enjoy doing backend and front end development and I'm looking for
-          more!
-        </p>
+        <h2>Quick Facts!</h2>
         <AboutCarousel />
       </Content>
     </div>

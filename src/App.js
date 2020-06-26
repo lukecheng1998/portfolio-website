@@ -11,7 +11,6 @@ import Contact from './pages/ContactPage';
 import About from './pages/AboutPage';
 //Components
 import Footer from './components/Footer'
-import Hero from './components/Hero'
 class App extends React.Component {
   constructor(props){
     super(props)
@@ -24,7 +23,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Forward Thinking',
-        subTitle: 'Projects from me',
+        subTitle: 'Always curious about the world',
         text: 'Take a look at my Projects'
       },
       about: {
@@ -39,7 +38,7 @@ class App extends React.Component {
     return(
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+          <Navbar bg="transparent" expand="lg">
             <Navbar.Brand>Luke Cheng</Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
