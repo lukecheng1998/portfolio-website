@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Content from '../components/content';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
+import ContactCarousel from "../components/ContactCarousel";
 class ContactPage extends Component {
   constructor(props) {
     super(props);
@@ -37,7 +38,7 @@ class ContactPage extends Component {
         <div>
             <Hero title={this.props.title} />
             <Content>
-                
+                <ContactCarousel />
             </Content>
         </div>
     );

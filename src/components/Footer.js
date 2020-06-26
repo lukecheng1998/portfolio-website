@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 function Footer () {
     return (
-        <footer className="marginTop">
+        <footer className="margin-top">
             <Container fluid={true}>
-                <Row className="border-top justify-content-between p-3">
+                <Row className="justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
                         Luke Cheng
                     </Col>
