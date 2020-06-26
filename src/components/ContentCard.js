@@ -1,6 +1,6 @@
 import React from 'react'
 import CardInfo from '../components/ContentCardInfo'
-function Card (props) {
+function ContentCard (props) {
     return (
         <div className="d-inline-block lcc-card" onClick={(event) => props.click(props.item)}>
             <img className="lcc-card-image" src={props.item.imgSrc} alt={props.item.imgSrc}/>
@@ -9,4 +9,4 @@ function Card (props) {
     );
 }
 
-export default Card
+export default ContentCard

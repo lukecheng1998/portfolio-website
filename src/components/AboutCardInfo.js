@@ -1,11 +1,12 @@
 import React from "react";
+import {useSpring, animated} from 'react-spring';
 function AboutCardInfo(props) {
+  const style = useSpring({opacity: 1, from: {opacity: 0}}) 
     return (
-        <div className="l-card-info" style={style}>
+        <animated.div className="l-card-info" style={style}>
           <p className="l-card-title">{props.title}</p>
-          <p className="l-card-sub-title">{props.subTitle}</p>
-          <a href={props.link} target="blank" rel="noopener noreferrer">View</a>
-      </div>
+          <p className="l-card-body">{props.body}</p>
+      </animated.div>
     )
 }
 export default AboutCardInfo;
