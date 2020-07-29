@@ -26,6 +26,7 @@ code {
 }
 .l-card {
   margin: 20px;
+  will-change: transform, opacity
 }
 .lcc-card {
   margin: 20px;
