@@ -194,12 +194,14 @@ export class AboutCarousel extends Component {
         <Row className="justify-content-around">
           {this.makeItems3(this.secondState.thirdItems)}
         </Row>
-        <h1>The History of this Website</h1>
-        <Row className="justify-content-around">
-          {this.makeItems4(this.secondState.fourthItems)}
-        </Row>
+        
       </Container>
     );
   }
 }
 export default AboutCarousel;
+//Try this later
+/*<h1>The History of this Website</h1>
+        <Row className="justify-content-around">
+          {this.makeItems4(this.secondState.fourthItems)}
+        </Row> */
