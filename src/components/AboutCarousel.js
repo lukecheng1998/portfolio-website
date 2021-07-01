@@ -45,14 +45,14 @@ export class AboutCarousel extends Component {
           id: 0,
           title: "Student",
           body:
-            "Hello I am currently a student studying Computer Science at Purdue University!",
+            "I recently just graduated from Purdue University",
           imgSrc: school,
         },
         {
           id: 1,
           title: "Programmer",
           body:
-            "I really like to make awesome projects using JavaScript and React checkout some of the source code in the links below",
+            "I really like to make awesome projects using Java and JavaScript. Checkout some of the source code in the links below",
           imgSrc: computer,
         },
         {
@@ -70,7 +70,7 @@ export class AboutCarousel extends Component {
           id: 0,
           title: "Software Engineering",
           body:
-            "I've made multiple programs with Assembly, Java, C, and C++. In addition, I also have strong experience with data structures and algorithms as well as Scrum and agile project development.",
+            "I've made multiple programs with Java, C, and C++. In addition, I also am educated in data structures and algorithms as well as Scrum and agile project development. I hope to continue my eduation in the corporate environment",
           imgSrc: engineering,
         },
         {
@@ -84,7 +84,7 @@ export class AboutCarousel extends Component {
           id: 2,
           title: "Leadership",
           body:
-            "Being a Team Leader for Purdue's orientation, I have great experience helping people to transition into College life.",
+            "Being a Team Leader for Purdue's orientation, I have great experience helping people to transition into College life. As well as really strong experience in leading people",
           imgSrc: leadership,
         },
       ],
