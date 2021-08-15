@@ -9,6 +9,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/HomePage'
 import Contact from './pages/ContactPage';
 import About from './pages/AboutPage';
+import Projects from './pages/ProjectsPage';
 //Components
 import Footer from './components/Footer'
 class App extends React.Component {
@@ -19,12 +20,16 @@ class App extends React.Component {
       headerLinks: [
         {title: 'Home', path: '/'},
         {title: 'About', path: '/about'},
-        {title: 'Contact', path: '/contact'}
+        {title: 'Contact', path: '/contact'},
+        {title: 'Projects', path: '/projects'}
       ],
       home: {
         title: 'Forward Thinking',
         subTitle: 'Always curious about the world',
         text: 'Take a look at my Projects'
+      },
+      projects: {
+        title: 'View My Projects'
       },
       about: {
         title: 'About Me',
@@ -52,6 +57,9 @@ class App extends React.Component {
                 <Link className="nav-link" to="/contact">
                 Contact
                 </Link>
+                <Link className="nav-link" to="/projects">
+                  Projects
+                </Link>
 
                 
               </Nav>
@@ -60,6 +68,7 @@ class App extends React.Component {
           <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" exact render={() => <About title={this.state.about.title} />} />
           <Route path="/contact" exact render={() => <Contact title={this.state.contact.title} />} />
+          <Route path="/projects" exact render={() => <Projects title={this.state.projects.title} />} />
 
           <Footer />
         </Container>
