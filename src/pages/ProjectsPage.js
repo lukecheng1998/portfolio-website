@@ -7,7 +7,8 @@ class ProjectsPage extends Component{
     render() {
         return(
             <div>
-                <Hero title={this.props.title} />
+                <Hero title={this.props.title} text={this.props.text}/>
+
             </div>
         );
     }

@@ -29,7 +29,8 @@ class App extends React.Component {
         text: 'Take a look at my Projects'
       },
       projects: {
-        title: 'View My Projects'
+        title: 'View My Projects',
+        text: 'Coming Soon'
       },
       about: {
         title: 'About Me',
@@ -68,7 +69,7 @@ class App extends React.Component {
           <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" exact render={() => <About title={this.state.about.title} />} />
           <Route path="/contact" exact render={() => <Contact title={this.state.contact.title} />} />
-          <Route path="/projects" exact render={() => <Projects title={this.state.projects.title} />} />
+          <Route path="/projects" exact render={() => <Projects title={this.state.projects.title} text={this.state.projects.text} />} />
 
           <Footer />
         </Container>
