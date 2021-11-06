@@ -43,7 +43,7 @@ export class AboutCarousel extends Component {
       items: [
         {
           id: 0,
-          title: "Student",
+          title: "Graduate",
           body:
             "I recently just graduated from Purdue University",
           imgSrc: school,
@@ -70,7 +70,7 @@ export class AboutCarousel extends Component {
           id: 0,
           title: "Software Engineering",
           body:
-            "I've made multiple programs with Java, C, and C++. In addition, I also am educated in data structures and algorithms as well as Scrum and agile project development. I hope to continue my eduation in the corporate environment",
+            "I've made multiple programs with Java, JavaScript, C, and C++. Likewise I am also working in the corporate environment, utilizing Scrum and Agile, as well as helping automate various products.",
           imgSrc: engineering,
         },
         {
@@ -143,7 +143,7 @@ export class AboutCarousel extends Component {
           id: 4,
           title: "Version 5",
           body:
-            "2020: This is the current version of the website with an updated and cleaner UI",
+            "2021: This is the current version of the website with an updated and cleaner UI",
           imgSrc: version5,
         },
       ],

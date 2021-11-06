@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'Cooper Hewitt Book';
+  src: local('Cooper Hewitt Book'), url(./fonts/CooperHewitt-WebFonts-public/CooperHewitt-Book.woff) format('truetype');
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Cooper Hewitt Book', 
+    'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,7 +27,7 @@ code {
 }
 .alignment{
   text-align: center;
-  font-style: Helvetica;
+  font-style: 'Cooper Hewitt Book';
 }
 .l-card {
   margin: 20px;
