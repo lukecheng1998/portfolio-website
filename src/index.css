@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Cooper Hewitt Book';
-  src: local('Cooper Hewitt Book'), url(./fonts/CooperHewitt-WebFonts-public/CooperHewitt-Book.woff) format('truetype');
+  src: local('Cooper Hewitt Book'), url(./fonts/CooperHewitt-WebFonts-public/CooperHewitt-Book.woff) format('woff');
 }
 body {
   margin: 0;
