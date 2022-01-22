@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { render } from "react-dom";
 import CardInfo from "../components/Cardinfo";
 import { useSpring, animated } from "react-spring";
-import logo from "../assets/images/Luke logo with text w_out background.png"
+
 const calc = (x, y) => [
   -(y - window.innerHeight / 2) / 20,
   (x - window.innerWidth / 2) / 20,
@@ -26,10 +26,6 @@ function Card(props) {
           className="l-card-image"
           src={props.item.imgSrc}
           alt={props.item.imgSrc}
-        />
-        <img 
-          className="titlepage"
-          imgSrc={logo}
         />
       </animated.div>
       <animated.div
