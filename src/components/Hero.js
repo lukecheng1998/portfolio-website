@@ -14,12 +14,7 @@ function Hero(props) {
         <Row className="justify-content-center py-5 ">
           <Col md={8} sm={12}>
             <animated.div style={style}>
-              <img
-                src={logo}
-                width={100}
-                height={100}
-                align={"center"}
-              />
+             
               {props.title && (
                 <h1 className="display-1 font-weight-bolder">{props.title}</h1>
               )}
@@ -28,6 +23,13 @@ function Hero(props) {
                   {props.subTitle}
                 </h3>
               )}
+
+              <img
+                src={logo}
+                width={100}
+                height={100}
+                align={"center"}
+              />
 
               {props.text && (
                 <h3 className="lead font-weight-light">{props.text}</h3>
