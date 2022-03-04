@@ -12,6 +12,10 @@ import About from './pages/AboutPage';
 import Projects from './pages/ProjectsPage';
 //Components
 import Footer from './components/Footer'
+
+import logo from "./assets/images/Luke cheng logo w.out text and back.png"
+
+
 class App extends React.Component {
   constructor(props){
     super(props)
@@ -46,6 +50,12 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           <Navbar bg="transparent" expand="lg">
             <Navbar.Brand>Luke Cheng</Navbar.Brand>
+            <img
+                src={logo}
+                width={50}
+                height={50}
+                align={"center"}
+              />
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">

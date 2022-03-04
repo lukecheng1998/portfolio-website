@@ -4,7 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { render } from "react-dom";
 import { useSpring, animated } from "react-spring";
 
-import logo from "../assets/images/Luke cheng logo w.out text and back.png"
 
 function Hero(props) {
     const style = useSpring({opacity: 1, from: {opacity: 0}})
@@ -23,13 +22,6 @@ function Hero(props) {
                   {props.subTitle}
                 </h3>
               )}
-
-              <img
-                src={logo}
-                width={100}
-                height={100}
-                align={"center"}
-              />
 
               {props.text && (
                 <h3 className="lead font-weight-light">{props.text}</h3>
