@@ -67,21 +67,21 @@ export class AboutCarousel extends Component {
     this.secondState = {
       secondItems: [
         {
-          id: 0,
+          id: 3,
           title: "Software Engineering",
           body:
             "I've made multiple programs with Java, JavaScript, C, and C++. Likewise I am also working in the corporate environment, utilizing Scrum and Agile, as well as helping automate various products.",
           imgSrc: engineering,
         },
         {
-          id: 1,
+          id: 4,
           title: "Product Development",
           body:
             "I really enjoyed making websites and applications using JavaScript, React, NodeJS, and Express. I really enjoyed learning the process of frontend, backend, and fullstack and want to expand my knowledge",
           imgSrc: coding,
         },
         {
-          id: 2,
+          id: 5,
           title: "Leadership",
           body:
             "Being a Team Leader for Purdue's orientation, I have great experience helping people to transition into College life. As well as really strong experience in leading people",
@@ -90,21 +90,21 @@ export class AboutCarousel extends Component {
       ],
       thirdItems: [
         {
-          id: 0,
+          id: 6,
           title: "Teamwork",
           body:
             "I love working in a team and helping others. In addition I have solid experience in Scrum and agile development with hopes to expand my knowledge in the field",
           imgSrc: teamwork,
         },
         {
-          id: 1,
+          id: 7,
           title: "Projects",
           body:
             "I love making fun and cool projects outside of class, such as fun coding projects as well as some scientific experiments!",
           imgSrc: projects,
         },
         {
-          id: 2,
+          id: 8,
           title: "Professional Experience",
           body:
             "I have experience working in a field utilizing resources that I have learned in the class room. For instance, currently I am working with FIS in assistance with the automation of their Merchant Underwriting platform!",
@@ -113,34 +113,34 @@ export class AboutCarousel extends Component {
       ],
       fourthItems: [
         {
-          id: 0,
+          id: 9,
           title: "Version 1",
           body:
             "Cerca 2015-2016: This is the very first version of the website I've ever made and spurred my love of Computer Science.",
           imgSrc: version1,
         },
         {
-          id: 1,
+          id: 10,
           title: "Version 2",
           body:
             "Cerca 2017: My second version of the website, I tried to make a login function here!",
           imgSrc: version2,
         },
         {
-          id: 2,
+          id: 11,
           title: "Version 3",
           body:
             "2020: The third version of the website, using standard html and css",
           imgSrc: version3,
         },
         {
-          id: 3,
+          id: 12,
           title: "Version 4",
           body: "2020: This website version uses react spring ",
           imgSrc: version4,
         },
         {
-          id: 4,
+          id: 13,
           title: "Version 5",
           body:
             "2021: This is the current version of the website with an updated and cleaner UI",

@@ -57,7 +57,7 @@ class ProjectsPageCarousel extends Component {
     handleProjectCardClick = (id) => {
         let items = [...this.state.items];
         items[id].selected = items[id].selected ? false : true;
-
+        console.log(items)
         items.forEach((item) => {
             if(item.id !== id){
                 item.selected = false;
