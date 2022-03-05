@@ -123,3 +123,8 @@ code {
 .selectedCardContact:hover {
   box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
 }
+
+.l-card-project {
+  size: 80%;
+  margin-bottom: 10px;
+}

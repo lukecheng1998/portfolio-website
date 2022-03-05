@@ -107,7 +107,7 @@ export class AboutCarousel extends Component {
           id: 2,
           title: "Professional Experience",
           body:
-            "I have experience working in a field utilizing resources that I have learned in the class room. For instance, this summer I took part in Tech Point's SOS challenge which utilized application development to help prevent COVID-19 while helping the tourism industry",
+            "I have experience working in a field utilizing resources that I have learned in the class room. For instance, currently I am working with FIS in assistance with the automation of their Merchant Underwriting platform!",
           imgSrc: experience,
         },
       ],

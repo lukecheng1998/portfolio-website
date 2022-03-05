@@ -3,7 +3,7 @@ import {Container, Row} from 'react-bootstrap';
 import talkPurdue from "../assets/images/talkPurdue.png";
 import pagebot from "../assets/images/pagebot.png";
 import honestly from "../assets/images/honestly.png";
-import Card from '../components/Card'
+import Card from '../components/Card';
 class Carousel extends Component {
   constructor(props) {
     super(props);
