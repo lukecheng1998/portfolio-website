@@ -8,7 +8,7 @@ function AboutPage(props) {
     <div>
       <Hero title={props.title} />
       <Content>
-        <img src={Portrait} className="portrait-format center" />
+      <embed src="../assets/resume/Luke Cheng Software Engineering Resume v3.pdf" type="application/pdf" width="100%" height="600px"/>
         <h2>Quick Facts!</h2>
         <AboutCarousel />
       </Content>

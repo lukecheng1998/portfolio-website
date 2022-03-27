@@ -45,21 +45,21 @@ export class AboutCarousel extends Component {
           id: 0,
           title: "Graduate",
           body:
-            "I recently just graduated from Purdue University",
+            "I recently just graduated from Purdue University with a degree in Computer Science!",
           imgSrc: school,
         },
         {
           id: 1,
           title: "Programmer",
           body:
-            "I really like to make awesome projects using Java and JavaScript. Checkout some of the source code in the links below",
+            "I really like to make awesome projects using many programming languages. Checkout some of the source code in the links in the main page.",
           imgSrc: computer,
         },
         {
           id: 2,
           title: "Other",
           body:
-            "I also have a wide variety of other interests such as taking care of hamsters, running, and helping others",
+            "I also have a wide variety of other interests such as taking care of hamsters, running, modeling, and helping others.",
           imgSrc: other,
         },
       ],
@@ -77,14 +77,14 @@ export class AboutCarousel extends Component {
           id: 4,
           title: "Product Development",
           body:
-            "I really enjoyed making websites and applications using JavaScript, React, NodeJS, and Express. I really enjoyed learning the process of frontend, backend, and fullstack and want to expand my knowledge",
+            "I really enjoyed making applications utilizing the latest technologies from web development to low level development. I thoroughly enjoy the process of learning and utilizing my skills for development.",
           imgSrc: coding,
         },
         {
           id: 5,
           title: "Leadership",
           body:
-            "Being a Team Leader for Purdue's orientation, I have great experience helping people to transition into College life. As well as really strong experience in leading people",
+            "Formerly a Team Leader for Purdue's orientation, I have great experience helping people to transition into College life. As well as really strong experience in leading people.",
           imgSrc: leadership,
         },
       ],
@@ -100,7 +100,7 @@ export class AboutCarousel extends Component {
           id: 7,
           title: "Projects",
           body:
-            "I love making fun and cool projects outside of class, such as fun coding projects as well as some scientific experiments!",
+            "I love making fun and cool projects outside of class, such as fun coding projects seen on my github and here on this website! In addition, I also utilize many of professional skills in some of the projects!",
           imgSrc: projects,
         },
         {
